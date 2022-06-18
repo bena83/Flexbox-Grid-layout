@@ -1,0 +1,71 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+  body{
+    background-color:hsl(0, 0%, 95%);
+  }
+  .columns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    width: 50;
+    margin-bottom: 20%;
+    padding: 5%;
+  }
+  .sedan{
+    background-color: rgb(226,156,52);
+    padding: 2%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+  }
+  .suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2%;
+  }
+  .luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius:2% ;
+  }
+  h1{
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family:Lexend Deca ;
+    font-weight: 700;
+  }
+  p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    align-items: center;
+    line-height: 0px;
+    padding: 5px;
+    padding-bottom: 20px;
+  }
+  .sedanB{
+    color:  rgb(226,156,52);
+  }
+  .suvB{
+    color: hsl(184, 100%, 22%);
+  }
+  .LuxuryB{
+    color: hsl(179, 100%, 13%) ;
+  }
+  button{
+    font-family:Lexend Deca ;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    width: 9em;
+    height: 3em;
+  }
+  @media screen and (min-width: 375px) {
+    div {
+      height: 420px;
+    } 
+}
